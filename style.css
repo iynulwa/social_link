@@ -17,6 +17,7 @@ body {
 .mainCard {
     background-color: hsl(0, 0%, 12%);
     width: 40%;
+
     height: 90vh;
     margin: auto;
     margin-top: 3em;
@@ -102,6 +103,6 @@ img {
 @media (min-width: 501px ) and (max-width: 800px) {
 
     .mainCard {
-        width: 70%;
+        min-width: 50%
     }
 }
